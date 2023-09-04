@@ -62,7 +62,7 @@ ScrollReveal({
 
 ScrollReveal().reveal(".home-content, .heading", { origin: "top" })
 ScrollReveal().reveal(
-  ".home-img, .services-container, .education-container, .portfolio-box, contact-form",
+  ".home-img, .services-container, .education-container, .education-box, .portfolio-box, contact-form",
   { origin: "bottom" }
 )
 ScrollReveal().reveal(".home-content h1, .about-img", { origin: "left" })

@@ -311,7 +311,6 @@ span {
 
 .education-container .education-box:hover {
   border-color: var(--main-color);
-  transform: scale(1.02);
 }
 
 .education-container .education-box:nth-child(even) {
@@ -595,6 +594,18 @@ span {
 
   .portfolio-container {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-height: 405px) {
+  .navbar.active {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .navbar a {
+    margin: 0;
   }
 }
 
