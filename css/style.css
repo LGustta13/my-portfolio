@@ -147,7 +147,7 @@ span {
   width: 35vw;
   border-radius: 50%;
   border: 1px solid var(--main-color);
-  animation: floatImage 4s ease-in-out infinite;
+  animation: floatImage 6s ease-in-out infinite;
 }
 
 @keyframes floatImage {
@@ -316,6 +316,7 @@ span {
 .education-container .education-box:nth-child(even) {
   align-self: end;
   text-align: end;
+  min-width: 45%;
 }
 
 .education-container .his-circle {
@@ -588,6 +589,12 @@ span {
     max-width: 100%;
   }
 
+  .education-container .education-box:nth-child(even) {
+    min-width: 100%;
+  }
+
+  min-width: 45%;
+
   .portfolio h2 {
     margin-bottom: 3rem;
   }
@@ -601,7 +608,8 @@ span {
   .navbar.active {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    justify-content: space-between;
+    gap: 2rem;
   }
 
   .navbar a {
