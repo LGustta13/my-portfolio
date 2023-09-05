@@ -71,7 +71,7 @@ ScrollReveal().reveal(".about-stacks", { origin: "bottom" })
 
 // Typed js //
 const typed = new Typed(".multiple-text", {
-  strings: ["Frontend Developer", "Automation analyst"],
+  strings: ["Desenvolvedor Frontend", "Analista de Automação"],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
