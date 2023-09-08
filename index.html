@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
@@ -18,11 +18,16 @@
   <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
   <link rel="manifest" href="./assets/site.webmanifest">
 
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap">
+
+  <!-- Boxicons -->
+  <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+
+  <!-- CSS -->
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -37,7 +42,7 @@
       <a href="#home" class="active">Home</a>
       <a href="#about">Sobre</a>
       <a href="#services">Experiências</a>
-      <a href="#education">Educação</a>
+      <a href="#education">Formação</a>
       <a href="#portfolio">Portfólio</a>
       <a href="#contact">Contato</a>
     </nav>
@@ -64,18 +69,19 @@
     </div>
 
     <div class="home-img">
-      <img src="./assets/avatar-gusta-light.jpg" alt="my profile image for the site">
+      <img src="./assets/profile/avatar-gusta-light.jpg" alt="my profile image for the site">
     </div>
   </section>
 
   <!-- about section -->
   <section class="about" id="about">
 
-    <div class="about-content">
-      <h2 class="heading">Sobre <span>mim</span></h2>
+    <h2 class="heading">Sobre <span>mim</span></h2>
+
+    <div class="about-container">
       <p>Com um ano de experiência como <span>Analista de Automação</span>, desenvolvi aplicações de automação e
-        telemetria veicular em <span>C++ e Python</span>, aprimorando minhas habilidades de resolução de problemas.
-        Estou em transição de carreira para o desenvolvimento <span>Frontend</span>, onde tenho desenvolvido projetos
+        telemetria veicular em <span>C++ e Python</span>, aprimorando minhas habilidades de resolução de problemas.Estou
+        em transição de carreira para o desenvolvimento <span>Frontend</span>, onde tenho desenvolvido projetos
         freelancer nos últimos meses nas stacks <span>JavaScript, HTML, CSS e React</span>.</p>
       <a href="#" class="btn" style="display:none">Read more</a>
       <div class="about-stacks">
@@ -87,6 +93,7 @@
         <i class='bx bxl-c-plus-plus'></i>
       </div>
     </div>
+
   </section>
 
   <!-- services section -->
@@ -158,7 +165,7 @@
 
   <!-- education section -->
   <section class="education" id="education">
-    <h2 class="heading">Educação</h2>
+    <h2 class="heading">Formação</h2>
 
     <div class="education-container">
       <div class="his-line"></div>
@@ -198,10 +205,10 @@
 
     <div class="portfolio-container">
       <div class="portfolio-box">
-        <img src="./assets/devlinks.png" alt="">
+        <img src="./assets/projects/devlinks.png" alt="">
         <div class="portfolio-layer">
           <h4>DevLinks</h4>
-          <p>O DevLinks é um agregador de links para usar como cartão de visitas online</p>
+          <p>WEB | Agregador de links para você utilizar como cartão de visitas online</p>
           <div class="icons">
             <a href="https://lgustta13.github.io/devlinks/" target="_blank">
               <i class='bx bx-link-external'></i>
@@ -214,15 +221,31 @@
       </div>
 
       <div class="portfolio-box">
-        <img src="./assets/portfolio1.jpg" alt="">
+        <img src="./assets/projects/dtmoney.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Dtmoney</h4>
+          <p>WEB | Plataforma para seu controle de gastos </p>
+          <div class="icons">
+            <a href="https://dtmoney-lgusta.vercel.app/" target="_blank">
+              <i class='bx bx-link-external'></i>
+            </a>
+            <a href="https://github.com/LGustta13/dtmoney" target="_blank">
+              <i class='bx bxl-github'></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="./assets/projects/monitore.png" alt="">
         <div class="portfolio-layer">
           <h4>Monitore IoT</h4>
-          <p>O DevLinks é um agregador de links para usar como cartão de visitas online</p>
+          <p>WEB | Plataforma de monitoramento de dados de telemetria desenvolvido durante meu TCC</p>
           <div class="icons">
-            <a href="https://lgustta13.github.io/devlinks/" target="_blank">
+            <a href="https://monitore-iot-lgusta.vercel.app/" target="_blank">
               <i class='bx bx-link-external'></i>
             </a>
-            <a href="https://github.com/LGustta13/devlinks" target="_blank">
+            <a href="https://github.com/LGustta13/monitore_iot/tree/master/web-vite" target="_blank">
               <i class='bx bxl-github'></i>
             </a>
           </div>
@@ -230,31 +253,15 @@
       </div>
 
       <div class="portfolio-box">
-        <img src="./assets/portfolio1.jpg" alt="">
-        <div class="portfolio-layer">
-          <h4>DTmoney</h4>
-          <p>O DevLinks é um agregador de links para usar como cartão de visitas online</p>
-          <div class="icons">
-            <a href="https://lgustta13.github.io/devlinks/" target="_blank">
-              <i class='bx bx-link-external'></i>
-            </a>
-            <a href="https://github.com/LGustta13/devlinks" target="_blank">
-              <i class='bx bxl-github'></i>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="portfolio-box">
-        <img src="./assets/portfolio1.jpg" alt="">
+        <img src="./assets/projects/timetraveller.png" alt="">
         <div class="portfolio-layer">
           <h4>Time Traveller</h4>
-          <p>O DevLinks é um agregador de links para usar como cartão de visitas online</p>
+          <p>WEB | Registre seus melhores momentos e memórias</p>
           <div class="icons">
-            <a href="https://lgustta13.github.io/devlinks/" target="_blank">
+            <a href="https://traveller-lgusta.vercel.app/" target="_blank">
               <i class='bx bx-link-external'></i>
             </a>
-            <a href="https://github.com/LGustta13/devlinks" target="_blank">
+            <a href="https://github.com/LGustta13/time_traveller" target="_blank">
               <i class='bx bxl-github'></i>
             </a>
           </div>
@@ -262,14 +269,11 @@
       </div>
 
       <div class="portfolio-box">
-        <img src="./assets/portfolio1.jpg" alt="">
+        <img src="./assets/projects/myskills.png" alt="">
         <div class="portfolio-layer">
           <h4>My Skills</h4>
-          <p>O DevLinks é um agregador de links para usar como cartão de visitas online</p>
+          <p>MOBILE | Registre suas habilidades durante seus estudos</p>
           <div class="icons">
-            <a href="https://lgustta13.github.io/devlinks/" target="_blank">
-              <i class='bx bx-link-external'></i>
-            </a>
             <a href="https://github.com/LGustta13/devlinks" target="_blank">
               <i class='bx bxl-github'></i>
             </a>
@@ -278,36 +282,21 @@
       </div>
 
       <div class="portfolio-box">
-        <img src="./assets/portfolio1.jpg" alt="">
+        <img src="./assets/projects/loginpage.png" alt="">
         <div class="portfolio-layer">
-          <h4>login box</h4>
-          <p>O DevLinks é um agregador de links para usar como cartão de visitas online</p>
+          <h4>Login page</h4>
+          <p>WEB | Tenha um template de página de login com design system e documentação</p>
           <div class="icons">
-            <a href="https://lgustta13.github.io/devlinks/" target="_blank">
+            <a href="https://github.com/LGustta13/login-page" target="_blank">
               <i class='bx bx-link-external'></i>
             </a>
-            <a href="https://github.com/LGustta13/devlinks" target="_blank">
+            <a href="https://login-page-lgusta.vercel.app/" target="_blank">
               <i class='bx bxl-github'></i>
             </a>
           </div>
         </div>
       </div>
 
-      <div class="portfolio-box">
-        <img src="./assets/portfolio1.jpg" alt="">
-        <div class="portfolio-layer">
-          <h4>Github Explorer</h4>
-          <p>O DevLinks é um agregador de links para usar como cartão de visitas online</p>
-          <div class="icons">
-            <a href="https://lgustta13.github.io/devlinks/" target="_blank">
-              <i class='bx bx-link-external'></i>
-            </a>
-            <a href="https://github.com/LGustta13/devlinks" target="_blank">
-              <i class='bx bxl-github'></i>
-            </a>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 

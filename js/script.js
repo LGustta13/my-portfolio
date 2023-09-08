@@ -66,7 +66,7 @@ ScrollReveal().reveal(
   { origin: "bottom" }
 )
 ScrollReveal().reveal(".home-content h1, .about-img", { origin: "left" })
-ScrollReveal().reveal(".home-content p, .about-content", { origin: "right" })
+ScrollReveal().reveal(".home-content p, .about-container", { origin: "right" })
 ScrollReveal().reveal(".about-stacks", { origin: "bottom" })
 
 // Typed js //
