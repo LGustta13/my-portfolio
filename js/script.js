@@ -77,3 +77,10 @@ const typed = new Typed(".multiple-text", {
   backDelay: 1000,
   loop: true,
 })
+
+// put br before span for line break
+// window.onresize = () => {
+//   let h3 = document.querySelector("section .home-content h3:nth-child(3)")
+//   let br = document.createElement("br")
+//   let winWidth = window.outerWidth
+// }
