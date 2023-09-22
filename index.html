@@ -27,6 +27,9 @@
   <!-- Boxicons -->
   <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
 
+  <!-- Phosphor -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
   <!-- CSS -->
   <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -36,7 +39,18 @@
   <!-- header design -->
   <header class="header">
     <a href="#" class="logo">Portfolio</a>
-    <i class='bx bx-menu' id="menu-icon"></i>
+
+
+
+    <div class="icons">
+      <i class='bx bx-menu' id="menu-icon"></i>
+      <!-- english portugues -->
+      <i class="ph ph-translate" id="menu-translate" onclick=toggleLang()></i>
+
+      <!-- Darkmode -->
+      <i class="ph ph-moon" id="menu-darkmode" onclick=toggleMode()></i>
+    </div>
+
 
     <nav class="navbar">
       <a href="#home" class="active">Home</a>
@@ -67,8 +81,6 @@
         <a href="https://github.com/LGustta13" target="_blank"><i class='bx bxl-github'></i></a>
         <a href="mailto:luisgustavoengdev@outlook.com" target="_blank"><i class='bx bx-envelope'></i></a>
       </div>
-
-      <a href="" class="btn" style="display:none">Download CV</a>
     </div>
 
     <div class="home-img">
@@ -86,7 +98,7 @@
         telemetria veicular em <span>C++ e Python</span>, aprimorando minhas habilidades de resolução de problemas.Estou
         em transição de carreira para o desenvolvimento <span>Frontend</span>, onde tenho desenvolvido projetos
         freelancer nos últimos meses nas stacks <span>JavaScript, HTML, CSS e React</span>.</p>
-      <a href="#" class="btn" style="display:none">Read more</a>
+
       <div class="about-stacks">
         <i class='bx bxl-javascript'></i>
         <i class='bx bxl-html5'></i>
@@ -99,71 +111,11 @@
 
   </section>
 
-  <!-- services section -->
+  <!-- experiences section -->
   <section class="experiences" id="experiences">
     <h2 class="heading"><span>Experiências</span> Profissionais</h2>
 
-    <div class="experiences-container">
-      <div class="experiences-box">
-        <i class='bx bx-code-alt'></i>
-        <h3>Dev Frontend</h3>
-        <h4><span>April - 2023</span> | <span>Present</span></h4>
-        <p>Desenvolvimento de projetos pessoais e freelancer, buscando concretizar ideias e criar interfaces funcionais
-          e esteticamente atraentes. Conhecimento de responsividade, design system, UI/UX em códigos HTML, CSS, JS e
-          React. Além de backend com NodeJS e o SGBD PostgreSQL.</p>
-        <a href="#" class="btn">Read More</a>
-      </div>
-
-      <div class="experiences-box">
-        <i class='bx bx-cog'></i>
-        <h3>Analista Automação</h3>
-        <h4><span>March - 2022</span> | <span>Present</span></h4>
-        <p>Suporte aos clientes nas instalações dos rastreadores em seus veículos. Responsável pelo setor de P&D,
-          implementando soluções de telemetria, identificação remota e automação com sistemas embarcados. Experiência
-          com programação para sistemas embarcados utilizando C++ e Python</p>
-        <a href="#" class="btn">Read More</a>
-      </div>
-
-      <div class="experiences-box">
-        <i class='bx bx-file-find'></i>
-        <h3>Consultor de Projetos</h3>
-        <h4><span>November - 2019</span> | <span>November - 2020</span></h4>
-        <p>Participei de negociações com empresas na cidade de Lavras, além de poder desenvolver habilidades de
-          autogerenciamento, trabalho em equipe, comunicação e gestão de projetos e tempo. Apresentação de propostas de
-          projetos relacionados com aplicações web e mobile. Conhecimento de SCRUM e EAP.</p>
-        <a href="#" class="btn">Read More</a>
-      </div>
-
-      <div class="experiences-box">
-        <i class='bx bx-book'></i>
-        <h3>Pesquisador</h3>
-        <h4><span>September - 2018</span> | <span>October - 2019</span></h4>
-        <p>Desenvolvimento de um sistema de aquisição de dados por meio da plataforma Arduino. O sistema foi instalado
-          nos aviários da empresa Rivelli para coleta de dados de ambiência. Trabalhei em time com estudantes da
-          engenharia civil e agrícola. Experiência de C++ para sistemas embarcados</p>
-        <a href="#" class="btn">Read More</a>
-      </div>
-
-      <div class="experiences-box">
-        <i class='bx bx-bar-chart-alt'></i>
-        <h3>Marketing</h3>
-        <h4><span>January - 2018</span> | <span>January - 2019</span></h4>
-        <p>Atuei como membro e líder do setor de Marketing, no qual pude me aperfeiçoar nas ferramentas de edição
-          audiovisual e colocar em prática todo conhecimento agregado de marketing digital. Participei na edição de 2018
-          da Shell Eco-Marathon. Experiência com Illustrator e Sony Vegas</p>
-        <a href="#" class="btn">Read More</a>
-      </div>
-
-      <div class="experiences-box">
-        <i class='bx bx-restaurant'></i>
-        <h3>Garçom</h3>
-        <h4><span>March - 2014</span> | <span>April - 2017</span></h4>
-        <p>Exerci funções de atendente (garçom) e caixa. Me orgulho das experiências, aprendizados e network que criei
-          durante este período, pois a convivência com pessoas de diferentes opiniões e culturas agregou
-          significativamente em meu desenvolvimento pessoal e postura profissional.</p>
-        <a href="#" class="btn">Read More</a>
-      </div>
-    </div>
+    <div class="experiences-container"></div>
   </section>
 
   <!-- education section -->
@@ -405,6 +357,8 @@
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
   <script src="./js/script.js"></script>
+  <script src="./js/experiences.js"></script>
+  <script src="./js/toggleLang.js"></script>
 </body>
 
 </html>

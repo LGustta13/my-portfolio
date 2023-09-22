@@ -69,7 +69,7 @@ ScrollReveal().reveal(".home-content h1, .about-img", { origin: "left" })
 ScrollReveal().reveal(".home-content p, .about-container", { origin: "right" })
 ScrollReveal().reveal(".about-stacks", { origin: "bottom" })
 
-// Typed js //
+/////// Typed JS /////////
 const typed = new Typed(".multiple-text", {
   strings: ["Desenvolvedor Frontend", "Analista de Automação"],
   typeSpeed: 100,
@@ -77,3 +77,12 @@ const typed = new Typed(".multiple-text", {
   backDelay: 1000,
   loop: true,
 })
+
+/////// Dark Mode /////////
+let darkmode_icon = document.querySelector("#menu-darkmode")
+
+let html = document.documentElement
+
+function toggleMode() {
+  html.classList.toggle("light")
+}
