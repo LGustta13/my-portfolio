@@ -1,14 +1,9 @@
-const language = [
+export const languages = [
   {
     id: "pt-br",
-    title: "Portfolio | Luis Gustavo",
-    header: "Portfolio | Luis Gustavo",
-    home: "Home",
-    about: "Sobre",
-    experiences: "Experiências",
-    education: "Formação",
-    portfolio: "Portfólio",
-    contact: "Contato",
+    title: "Portfólio | Luis Gustavo",
+    header: "Portfólio",
+    nav: ["Home", "Sobre", "Experiências", "Formação", "Portfólio", "Contato"],
     homeContent: {
       h1: "Olá, sou eu!",
       h2: "Luis Gustavo",
@@ -46,15 +41,11 @@ const language = [
     footer: "Copyright © 2023 de Luis Gustavo | Todos os direitos reservados",
   },
   {
-    id: "en-US",
+    id: "en-us",
     title: "Portfolio | Luis Gustavo",
-    header: "Portfolio | Luis Gustavo",
+    header: "Portfolio",
     home: "Home",
-    about: "About",
-    experiences: "Experiences",
-    education: "Education",
-    portfolio: "Portfolio",
-    contact: "Contact",
+    nav: ["Home", "About", "Experiences", "Education", "Portfolio", "Contact"],
     homeContent: {
       h1: "Hello, it's me!",
       h2: "Luis Gustavo",
@@ -92,3 +83,5 @@ const language = [
     footer: "Copyright © 2023 by Luis Gustavo | All rights reserved",
   },
 ]
+
+export default { languages }
