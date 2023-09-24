@@ -1,5 +1,6 @@
 const language = [
-  portuguese: {
+  {
+    id: "pt-br",
     title: "Portfolio | Luis Gustavo",
     header: "Portfolio | Luis Gustavo",
     home: "Home",
@@ -26,9 +27,68 @@ const language = [
       h1: "<span>Experiências</span> Profissionais",
     },
     educationContent: {
-      h1: "Formação"
+      h1: "Formação",
     },
-
+    projectsContent: {
+      h1: "<span>Projetos</span> Frontend",
+    },
+    contactContent: {
+      h1: "Contato",
+      palceholder: {
+        name: "Nome",
+        email: "Email",
+        tel: "Telefone",
+        topic: "Assunto",
+        message: "Sua mensagem",
+      },
+      button: "Enviar mensagem",
+    },
+    footer: "Copyright © 2023 de Luis Gustavo | Todos os direitos reservados",
   },
-  english: {},
+  {
+    id: "en-US",
+    title: "Portfolio | Luis Gustavo",
+    header: "Portfolio | Luis Gustavo",
+    home: "Home",
+    about: "About",
+    experiences: "Experiences",
+    education: "Education",
+    portfolio: "Portfolio",
+    contact: "Contact",
+    homeContent: {
+      h1: "Hello, it's me!",
+      h2: "Luis Gustavo",
+      h3: "And I am",
+      span1: "Frontend Developer",
+      span2: "Automation Analyst",
+      description:
+        "I have a passion for turning ideas into digital reality. This is my portfolio, where you can explore my creations and track my progress as I seek to enhance my skills and make an impactful contribution to the web!",
+    },
+    aboutContent: {
+      h1: "About <span>me</span>",
+      description:
+        "With one year of experience as an <span>Automation Analyst</span>, I have developed vehicle automation and telemetry applications using <span>C++ and Python</span>, enhancing my problem-solving skills. I am currently transitioning my career to <span>Frontend</span> development, where I have been working on freelance projects over the past few months in <span>JavaScript, HTML, CSS, and React </span>stacks.",
+    },
+    experiencesContent: {
+      h1: "Professional <span>Experiences</span>",
+    },
+    educationContent: {
+      h1: "Education",
+    },
+    projectsContent: {
+      h1: "Frontend <span>projects</span>",
+    },
+    contactContent: {
+      h1: "Contact",
+      palceholder: {
+        name: "Name",
+        email: "Email",
+        tel: "Tel",
+        topic: "Topic",
+        message: "Your message",
+      },
+      button: "Send message",
+    },
+    footer: "Copyright © 2023 by Luis Gustavo | All rights reserved",
+  },
 ]

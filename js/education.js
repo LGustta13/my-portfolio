@@ -29,10 +29,10 @@ const educations = [
   },
 ]
 
-const container = document.querySelector(".education-container")
+const containerEducation = document.querySelector(".education-container")
 
 educations.map((education) => {
-  container.innerHTML += `
+  containerEducation.innerHTML += `
   <div class="his-line"></div>
     <div class="education-box">
       <div class="his-circle"></div>
