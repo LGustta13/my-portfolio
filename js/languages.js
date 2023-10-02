@@ -1,3 +1,7 @@
+import { experiencesPortuguese, experiencesEnglish } from "./experiences.js"
+import { educationsPortuguese, educationsEnglish } from "./education.js"
+import { projectsPortuguese, projectsEnglish } from "./projects.js"
+
 export const languages = [
   {
     id: "pt-br",
@@ -20,22 +24,19 @@ export const languages = [
     },
     experiencesContent: {
       h1: "<span>Experiências</span> Profissionais",
+      content: experiencesPortuguese,
     },
     educationContent: {
       h1: "Formação",
+      content: educationsPortuguese,
     },
-    projectsContent: {
+    portfolioContent: {
       h1: "<span>Projetos</span> Frontend",
+      content: projectsPortuguese,
     },
     contactContent: {
       h1: "Contato",
-      palceholder: {
-        name: "Nome",
-        email: "Email",
-        tel: "Telefone",
-        topic: "Assunto",
-        message: "Sua mensagem",
-      },
+      placeholder: ["Nome", "Email", "Telefone", "Assunto", "Sua mensagem"],
       button: "Enviar mensagem",
     },
     footer: "Copyright © 2023 de Luis Gustavo | Todos os direitos reservados",
@@ -62,26 +63,21 @@ export const languages = [
     },
     experiencesContent: {
       h1: "Professional <span>Experiences</span>",
+      content: experiencesEnglish,
     },
     educationContent: {
       h1: "Education",
+      content: educationsEnglish,
     },
-    projectsContent: {
+    portfolioContent: {
       h1: "Frontend <span>projects</span>",
+      content: projectsEnglish,
     },
     contactContent: {
       h1: "Contact",
-      palceholder: {
-        name: "Name",
-        email: "Email",
-        tel: "Tel",
-        topic: "Topic",
-        message: "Your message",
-      },
+      placeholder: ["Name", "Email", "Tel", "Topic", "Your message"],
       button: "Send message",
     },
     footer: "Copyright © 2023 by Luis Gustavo | All rights reserved",
   },
 ]
-
-export default { languages }

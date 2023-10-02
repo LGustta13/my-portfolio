@@ -1,4 +1,4 @@
-const educations = [
+export const educationsPortuguese = [
   {
     id: 1,
     title: "Discover",
@@ -29,16 +29,33 @@ const educations = [
   },
 ]
 
-const containerEducation = document.querySelector(".education-container")
-
-educations.map((education) => {
-  containerEducation.innerHTML += `
-  <div class="his-line"></div>
-    <div class="education-box">
-      <div class="his-circle"></div>
-      <h3>${education.title}</h3>
-      <h4><span>${education.begin}</span> | <span>${education.end}</span></h4>
-      <p>${education.place}</p>
-    </div>
-  `
-})
+export const educationsEnglish = [
+  {
+    id: 1,
+    title: "Discover",
+    begin: "August - 2023",
+    end: "August - 2023",
+    place: "Rocketseat",
+  },
+  {
+    id: 2,
+    title: "Bachelor in Control and Automation Engineering",
+    begin: "April - 2017",
+    end: "August - 2023",
+    place: "UFLA - Federal University of Lavras",
+  },
+  {
+    id: 3,
+    title: "English B2 level",
+    begin: "January - 2012",
+    end: "January - 2017",
+    place: "CCAA",
+  },
+  {
+    id: 4,
+    title: "Public Speaking and Computer Science",
+    begin: "March - 2013",
+    end: "July - 2013",
+    place: "CEDUP - Centro Profissionalizante",
+  },
+]

@@ -1,4 +1,4 @@
-const experiences = [
+export const experiencesPortuguese = [
   {
     id: 1,
     title: "Dev FrontEnd",
@@ -49,15 +49,54 @@ const experiences = [
   },
 ]
 
-const container = document.querySelector(".experiences-container")
+export const experiencesEnglish = [
+  {
+    id: 1,
+    title: "Dev FrontEnd",
+    begin: "April - 2023",
+    end: "Present",
+    description:
+      "Development of personal projects and freelance work, aiming to bring ideas to fruition and create functional and aesthetically appealing interfaces. Proficient in responsiveness, design systems, UI/UX in HTML, CSS, JS, and React, as well as backend development with Node.js and the PostgreSQL database management system.",
+  },
+  {
+    id: 2,
+    title: "Automation Analyst",
+    begin: "March - 2022",
+    end: "Present",
+    description:
+      "Customer support for the installation of trackers in their vehicles. In charge of the P&D department, implementing telematics, remote identification, and automation solutions with embedded systems. Experience in programming for embedded systems using C++ and Python.",
+  },
+  {
+    id: 3,
+    title: "Project Consultant",
+    begin: "November - 2019",
+    end: "November - 2020",
+    description:
+      "I participated in negotiations with companies in the city of Lavras, which allowed me to develop self-management, teamwork, communication, project management, and time management skills. I presented project proposals related to web and mobile applications. Knowledge of SCRUM and EAP.",
+  },
+  {
+    id: 4,
+    title: "Pesquisador",
+    begin: "September - 2018",
+    end: "October - 2019",
+    description:
+      "Development of a data acquisition system using the Arduino platform. The system was installed in Rivelli company's poultry farms for environmental data collection. I worked in a team with civil and agricultural engineering students. Experience with C++ for embedded systems.",
+  },
+  {
+    id: 5,
+    title: "Marketing",
+    begin: "January - 2018",
+    end: "January - 2019",
+    description:
+      "I served as a member and leader of the Marketing department, where I was able to refine my skills in audiovisual editing tools and put into practice all the knowledge I had acquired in digital marketing. I participated in the 2018 edition of the Shell Eco-Marathon. Experience with Illustrator and Sony Vegas.",
+  },
+  {
+    id: 6,
+    title: "Waiter",
+    begin: "March - 2014",
+    end: "April - 2017",
+    description:
+      "I worked as a waiter and cashier. I take pride in the experiences, learning, and network I built during this time because interacting with people of diverse opinions and cultures significantly contributed to my personal development and professional demeanor",
+  },
+]
 
-experiences.map((experience) => {
-  container.innerHTML += `
-  <div class="experiences-box">
-    <i class='bx bx-code-alt'></i>
-    <h3>${experience.title}</h3>
-    <h4><span>${experience.begin}</span> | <span>${experience.end}</span></h4>
-    <p>${experience.description}</p>
-  </div>
-  `
-})
