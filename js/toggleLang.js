@@ -68,7 +68,7 @@ function setLanguageHTML() {
 
   language.educationContent.content.map((ed) => {
     education.querySelector(".education-container").innerHTML += `
-  <div class="his-line"></div>
+    
     <div class="education-box">
       <div class="his-circle"></div>
       <h3>${ed.title}</h3>
@@ -77,7 +77,9 @@ function setLanguageHTML() {
     </div>
   `
   })
-
+  education.querySelector(".education-container").innerHTML +=
+    '<div class="his-line"></div>'
+    
   // Portfolio //
   portfolio.querySelector(".heading").innerHTML = language.portfolioContent.h1
   portfolio.querySelector(".portfolio-container").innerHTML = ""
@@ -130,5 +132,5 @@ function setLanguageHTML() {
     .querySelector("textarea")
     .setAttribute("placeholder", language.contactContent.placeholder[4])
 
-    footer.querySelector(".footer-text p").innerText = language.footer
+  footer.querySelector(".footer-text p").innerText = language.footer
 }
