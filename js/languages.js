@@ -20,7 +20,7 @@ const language = [
     aboutContent: {
       h1: "Sobre <span>mim</span>",
       description:
-        "Com um ano de experiência como <span>Analista de Automação</span>, desenvolvi aplicações de automação e telemetria veicular em <span>C++ e Python</span>, aprimorando minhas habilidades de resolução de problemas.Estou em transição de carreira para o desenvolvimento <span>Frontend</span>, onde tenho desenvolvido projetos freelancer nos últimos meses nas stacks <span>JavaScript, HTML, CSS e React</span>.",
+        "Com mais de dois anos de experiência como <span>Analista de Automação</span> na área de sistemas embarcados aplicado em logística e transportes, desenvolvi aplicações de automação e telemetria veicular em <span>C++, Python e JavaScript</span>, aprimorando minhas habilidades para criação de soluções com qualidade e inovação. Além disso, tenho desenvolvido projetos freelancer nos últimos meses nas stacks <span>JavaScript, HTML, CSS e React</span>, criando um portfólio como <span>desenvolvedor FullStack</span>. Estou em busca de novos desafios, com o propósito de impactar cada vez mais o mercado de IoT e telemetria.",
     },
     experiencesContent: {
       h1: "<span>Experiências</span> Profissionais",
@@ -32,3 +32,6 @@ const language = [
   },
   english: {},
 ]
+
+
+// Estou em transição de carreira para o desenvolvimento < span > Frontend</span >, onde tenho desenvolvido projetos freelancer nos últimos meses nas stacks < span > JavaScript, HTML, CSS e React</span >.

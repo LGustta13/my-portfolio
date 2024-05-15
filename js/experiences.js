@@ -1,7 +1,7 @@
 const experiences = [
   {
     id: 1,
-    title: "Dev FrontEnd",
+    title: "Dev FullStack",
     begin: "Abril - 2023",
     end: "Presente",
     description:
