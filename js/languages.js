@@ -30,7 +30,10 @@ const language = [
     },
 
   },
-  english: {},
+
+  english: {
+    
+  },
 ]
 
 

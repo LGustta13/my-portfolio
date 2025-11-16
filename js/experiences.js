@@ -47,6 +47,14 @@ const experiences = [
     description:
       "Exerci funções de atendente (garçom) e caixa. Me orgulho das experiências, aprendizados e network que criei durante este período, pois a convivência com pessoas de diferentes opiniões e culturas agregou significativamente em meu desenvolvimento pessoal e postura profissional.",
   },
+  {
+    id: 7,
+    title: "Analista de calibração",
+    begin: "Junho - 2024",
+    end: "Presente",
+    description:
+      "Responsável pela calibração do powertrain para carros híbridos e elétricos da Stellantis. Me especializei tecnicamente em performance e consumo de combustível",
+  },
 ]
 
 const container = document.querySelector(".experiences-container")
