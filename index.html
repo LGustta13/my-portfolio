@@ -32,6 +32,16 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="./css/style.css">
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function() {
+        emailjs.init({
+          publicKey: "Jsf0RKmkj0eamaND6",
+        });
+    })();
+  </script>
+
 </head>
 
 <body>
@@ -129,16 +139,17 @@
   <section class="contact" id="contact">
     <h2 class="heading">Contato</h2>
 
-    <form action="#">
+    <form id="contact-form">
       <div class="input-box">
-        <input type="text" placeholder="Nome">
-        <input type="email" placeholder="Email">
+        <input type="text" name="name" placeholder="Nome">
+        <input type="email" name="email" placeholder="Email">
       </div>
       <div class="input-box">
-        <input type="number" placeholder="Telefone">
-        <input type="text" placeholder="Assunto">
+        <input type="number" name="number" placeholder="Telefone">
+        <input type="text" name="topic" placeholder="Assunto">
       </div>
-      <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+      <textarea name="message" id="" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+      <input type="hidden" name="time" value="Mar 10 2025 08:46">
       <input type="submit" value="Enviar mensagem" class="btn" />
     </form>
   </section>
@@ -163,6 +174,7 @@
   <!-- JS -->
   <script src="./js/script.js"></script>
   <script type="module" src="./js/toggleLang.js"></script>
+  <script type="module" src="./js/email.js"></script>
 </body>
 
 </html>
