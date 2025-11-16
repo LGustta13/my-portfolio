@@ -52,7 +52,7 @@ stack_icons.forEach((stack) => {
   }
 })
 
-// Scroll reveal //
+////////// Scroll reveal ////////
 ScrollReveal({
   // reset: true,
   distance: "80px",

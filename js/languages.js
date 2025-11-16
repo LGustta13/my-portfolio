@@ -13,14 +13,14 @@ export const languages = [
       h2: "Luis Gustavo",
       h3: "E sou um",
       span1: "Desenvolvedor Frontend",
-      span2: "Analista de Automação",
+      span2: "Analista de Calibração",
       description:
         "Tenho paixão por transformar ideias em realidade digital. Este é o meu portfólio, onde você pode explorar as minhas criações e acompanhar meu progresso enquanto busco aprimorar minhas habilidades e contribuir para a web de forma impactante!",
     },
     aboutContent: {
       h1: "Sobre <span>mim</span>",
       description:
-        "Com um ano de experiência como <span>Analista de Automação</span>, desenvolvi aplicações de automação e telemetria veicular em <span>C++ e Python</span>, aprimorando minhas habilidades de resolução de problemas.Estou em transição de carreira para o desenvolvimento <span>Frontend</span>, onde tenho desenvolvido projetos freelancer nos últimos meses nas stacks <span>JavaScript, HTML, CSS e React</span>.",
+        "Com mais de 3 anos de experiência como <span>Analista de Automação e Calibração</span>, desenvolvi aplicações de automação e telemetria veicular em <span>C++ e Python</span>, além de calibrar veículos híbridos xHEV e desenvolver ferramentas de <span> otimização e performance </span> para projetos da Stellantis. Busco me aprimorar a todo instante, no qual nos últmos meses venho estudando e desenvolvendo projetos freelancer nas stacks <span>JavaScript, HTML, CSS e React</span>, além também de tecnologias com algoritmos de IA.",
     },
     experiencesContent: {
       h1: "<span>Experiências</span> Profissionais",
@@ -59,7 +59,7 @@ export const languages = [
     aboutContent: {
       h1: "About <span>me</span>",
       description:
-        "With one year of experience as an <span>Automation Analyst</span>, I have developed vehicle automation and telemetry applications using <span>C++ and Python</span>, enhancing my problem-solving skills. I am currently transitioning my career to <span>Frontend</span> development, where I have been working on freelance projects over the past few months in <span>JavaScript, HTML, CSS, and React </span>stacks.",
+        "With over 3 years of experience as an <span>Automation and Calibration Analyst</span>, I developed vehicle automation and telemetry applications in <span>C++ and Python</span>, in addition to calibrating xHEV hybrid vehicles and creating <span> optimization and performance tools </span> for Stellantis projects. I strive to continuously improve and, in recent months, have been studying and developing freelance projects using the <span>JavaScript, HTML, CSS, and React</span> stack, as well as technologies involving AI algorithms.",
     },
     experiencesContent: {
       h1: "Professional <span>Experiences</span>",
